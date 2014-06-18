@@ -18,7 +18,9 @@ Package.on_use(function (api, where) {
 
   /* Select2Component Vendor Assets */
   api.add_files([
-    'vendor/select2/select2.js'
+    'vendor/select2/select2.js',
+    'vendor/select2/select2.css',
+    'vendor/select2/select2-bootstrap.css'
   ], [ 'client' ]);
 
   /* Select2Component */
